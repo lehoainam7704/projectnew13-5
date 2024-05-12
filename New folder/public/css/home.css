@@ -1,0 +1,94 @@
+/* Adjustments for the mainmenu area */
+.mainmenu-area {
+    background-color: #f8f9fa; /* Background color */
+    padding: 10px 0; /* Add padding to the top and bottom */
+}
+
+/* Navbar header adjustments */
+.navbar-header {
+    margin-right: 15px; /* Add margin to the right */
+}
+
+/* Navbar toggle adjustments */
+.navbar-toggle {
+    background-color: transparent; /* Make the toggle button transparent */
+    border: none; /* Remove border */
+}
+
+/* Navbar collapse adjustments */
+.navbar-collapse {
+    margin-top: 10px; /* Add margin to the top */
+}
+
+/* Navbar list adjustments */
+.nav.navbar-nav {
+    margin-left: 20px; /* Add margin to the left */
+}
+
+.navbar-nav > li {
+    position: relative; /* Make the list items relative for dropdown positioning */
+}
+
+/* Dropdown adjustments */
+.dropdown {
+    position: static; /* Override the default relative positioning */
+}
+
+/* Dropdown button adjustments */
+.dropbtn {
+    background-color: transparent; /* Make the dropdown button transparent */
+    border: none; /* Remove border */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    padding: 10px 15px; /* Add padding */
+}
+
+/* Dropdown content adjustments */
+.dropdown-content {
+    display: none; /* Hide dropdown content by default */
+    position: absolute; /* Position dropdown content absolutely */
+    background-color: #fff; /* Dropdown background color */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); /* Dropdown box shadow */
+    z-index: 1; /* Ensure dropdown is on top */
+}
+
+.dropdown-content a {
+    color: #333; /* Dropdown item text color */
+    padding: 12px 16px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Display as block element */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Background color on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown content on hover */
+}
+
+/* Search form adjustments */
+form {
+    display: inline-block; /* Display form as inline-block element */
+    position: relative; /* Position form relatively */
+}
+
+input[type="text"] {
+    border-radius: 10px; /* Add border radius */
+    margin-top: 10px; /* Add margin to the top */
+    width: 300px; /* Set width */
+}
+
+button[type="submit"] {
+    border-radius: 10px; /* Add border radius */
+    width: 80px; /* Set width */
+    height: 45px; /* Set height */
+    margin-left: 10px; /* Add margin to the left */
+}
+
+/* Shopping cart link adjustments */
+.fa.fa-shopping-cart {
+    font-size: 20px; /* Increase font size */
+    color: #333; /* Icon color */
+    margin-right: 5px; /* Add margin to the right */
+}
